@@ -3,6 +3,7 @@
 #No Idea what We are Doing
 
 #Create general program loop
+#While you choose to live, you live.
 import time
 Gameover = False;
 
@@ -14,4 +15,4 @@ while not Gameover:
         Gameover = True;
     elif Player_Input =='l':
         print("You have choosen to live indeed. A wise choice.")
-        time.sleep(10)
+        time.sleep(5)
