@@ -7,11 +7,11 @@ import time
 Gameover = False;
 
 while not Gameover:
-    Player_Input = input("Press 'e' to exit or 'l' to live"); #Gather user Input
+    Player_Input = input("Press 'e' to exit or 'l' to live: "); #Gather user Input
     
     #Begin processing user input
     if Player_Input == 'e':
         Gameover = True;
     elif Player_Input =='l':
         print("You have choosen to live indeed. A wise choice.")
-        time.wait(10)
+        time.sleep(10)
