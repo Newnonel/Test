@@ -8,6 +8,7 @@ import time
 import random
 Gameover = False;
 print("You face the Dragon. How long can you live?")
+time.sleep(5)
 Dragon_HP=10
 Dragon_Attack=0
 Your_life=0
